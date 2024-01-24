@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  background-color: #3b3f51;
+}
+
+.button-go {
+  display: inline-flex;
+  padding: 24px 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #7933ff;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.button-second {
+  display: flex;
+  width: 338px;
+  padding: 26px 60px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  background: #7933ff;
+}
+
+.go {
+  color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.containerOne {
+  background-image: url("/phone.png");
+  /* width: 1920px; */
+  height: 1080px;
+  /* background-position: center;
+  background-size: cover; */
+}
+
+.containerTwo {
+  background-image: url("/container2.png");
+  width: 1770px;
+  height: 996px;
+}
+
+.containerThree {
+  background-image: url("/container3.png");
+  width: 1920px;
+  height: 2700px;
+}
