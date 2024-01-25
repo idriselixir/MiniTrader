@@ -1,14 +1,16 @@
 import Navbar from "@/components/Navbar/Navbar";
-import About from "@/components/about/About";
-import Three from "@/components/section3/Three";
+import Three from "@/components/sections/section3/Three";
 import One from "@/components/sections/section1/One";
-import Two from   "@/components/sections/section2/Two"
+import Two from   "@/components/sections/section2/Two";
+// import Navbar from "@/components/Navbar/Navbar";
+import About from "@/components/about/About";
+
 
 export default function Home() {
   return (
     <main>
       <section>
-      <Navbar />
+  
       <One />
       </section>
 

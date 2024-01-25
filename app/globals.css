@@ -44,9 +44,9 @@ main {
   height: 1080px;
   background-position: center;
   background-size: cover;
-  padding: 150px;
+  /* padding: 150px; */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   /* align-items: center; */
   flex-direction: column;
   gap: 20px;
@@ -60,6 +60,7 @@ main {
   /* justify-content: center; */
   align-items: center;
   flex-shrink: 0;
+  
 
   
 
@@ -70,6 +71,11 @@ main {
   background-image: url("/container3.png");
   /* width: 1920px; */
   height: 2700px;
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+ 
 }
 
 .button-third {
