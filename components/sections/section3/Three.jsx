@@ -15,21 +15,37 @@ const Three = () => {
         </div>
 
 
-        <div className='flex justify-center gap-[100px]'> 
-            <div>
-            <h1 className="w-[699px] text-stone-50 text-[32px] font-normal  leading-[49px] pt-[100px] ">Risk Selection</h1>
-            <p className="w-[699px] text-stone-50 text-[21px] font-normal  leading-loose flex-1">Select your investment pln according to your risk appetite. We provide you with three models to invest in. You can use one or many. Trade however you wish.
+        <div className='flex justify-center'> 
+            <div className='pl-[100px]'>
+            <h1 className="w-[699px] text-stone-50 text-[32px] font-normal    ">Risk Selection</h1>
+            <p className="w-[699px] text-stone-50 text-[21px] font-normal ">Select your investment pln according to your risk appetite. We provide you with three models to invest in. You can use one or many. Trade however you wish.
 <br/></p>
 
 
             </div>
-            <div className='pt-[100px]'>
-            <Image src="/threecards.png" width={758} height={1195}  />
+            
+              <div>
+            <Image src="/threecards.png"   width={1200} height={900} />
             </div>
+            
         </div>
 
 
-        <div></div>
+        <div className="flex ">
+          <div>
+            <Image src="/phonedash.png" width={977} height={872} alt=""  />
+            
+          </div>
+          <div>
+            <h1 className='text-white font-inter text-[48px] font-normal 
+'> Selecting Timespan</h1>
+            <p className='text-white font-inter text-base font-normal text-[21px] 
+'>The risk model automatically selects a time span for you but you can extend the time as you wish within the investment plan that you chose.
+</p>
+          </div>
+
+        </div>
+
     </div>
   )
 }

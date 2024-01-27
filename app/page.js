@@ -4,6 +4,7 @@ import One from "@/components/sections/section1/One";
 import Two from   "@/components/sections/section2/Two";
 // import Navbar from "@/components/Navbar/Navbar";
 import About from "@/components/about/About";
+import Four from "@/components/sections/section4/Four";
 
 
 export default function Home() {
@@ -21,6 +22,11 @@ export default function Home() {
       <section>
         <Three />
       </section>
+      <section>
+        <Four />
+        
+      </section>
+
     </main>
   );
 }

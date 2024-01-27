@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
-        <div className="w-[1652px] text-center text-stone-50 text-[21px] font-thin  leading-loose pl-[163px]"><p>MiniTrade is the ‘Web3 Amazon’ for growing your wealth. Never miss savings opportunities, staking and even high-performing new crypto listings.
+    
+        <div className="text-center text-stone-50 text-[2rem] font-thin m-3"><p>MiniTrade is the ‘Web3 Amazon’ for growing your wealth. Never miss savings opportunities, staking and even high-performing new crypto listings.
 <br/>Web 3 aggregator of the best performing assets globally including crypto, stocks, managed portfolios, private companies (startups), new listings, bonds, staking & savings, and even predictions (gaming, betting & etc) ALL IN ONE WEB3 APP. 
 <br/>
 <br/>Grow your wealth , even if it is as low as USD 1 dollar 
@@ -14,7 +14,7 @@ const About = () => {
 <br/>
 <br/>Invest as little as USD 1 Dollar (we are radically serious about inclusiveness and democratization and all humanity should have equal opportunities to grow their wealth.</p>
 </div>
-    </div>
+    
   )
 }
 

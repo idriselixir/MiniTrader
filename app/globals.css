@@ -71,10 +71,14 @@ main {
   background-image: url("/container3.png");
   /* width: 1920px; */
   height: 2700px;
-  padding: 150px;
+  /* margin: 150px; */
   display: flex;
   flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  gap: 200px;
   /* justify-content: space-between; */
+
  
 }
 
@@ -88,6 +92,13 @@ main {
   background: #7933ff;
   text-align: center;
   color: white;
+}
+
+
+.containerFour {
+  background-image: url("/section4bg.png");
+  /* width: 1920px; */
+  /* height: 2700px; */
 }
 
 
